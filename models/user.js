@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://heroku_xtq3cdhj:Mahesh@123@ds125862.mlab.com:25862/heroku_xtq3cdhj');
+mongoose.connect('mongodb://mahesh:mahesh@123@ds125862.mlab.com:25862/heroku_xtq3cdhj');
 const bcrypt = require('bcryptjs');
 
 // User Schema
